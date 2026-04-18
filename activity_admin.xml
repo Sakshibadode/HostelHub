@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED">
+
+    <Button
+        android:id="@+id/btnStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnRooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rooms"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnOutpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OutPass Approve"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Report"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Account"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"/>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Student Section -->
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_student" android:title="Student" />
+        <item android:id="@+id/nav_student_rooms" android:title="Student Rooms Book" />
+        <item android:id="@+id/nav_outpass" android:title="OutPass Approve" />
+        <item android:id="@+id/nav_report" android:title="Student Report" />
+    </group>
+
+    <!-- Rooms Section -->
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_rooms" android:title="Rooms" />
+    </group>
+
+    <!-- Other Options -->
+    <item android:id="@+id/nav_admin" android:title="Manage Admin Users" />
+    <item android:id="@+id/nav_account" android:title="My Account" />
+    <item android:id="@+id/nav_signout" android:title="Sign Out" />
+
+</menu>
